@@ -36,6 +36,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: angular-dist
+          path: dist/
 
       - name: Display build files
         run: ls -R dist/
