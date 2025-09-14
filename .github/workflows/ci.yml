@@ -37,7 +37,7 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18 # ou a versão que seu projeto usa
+          node-version: 18
 
       - name: Instalar dependências
         run: npm ci
